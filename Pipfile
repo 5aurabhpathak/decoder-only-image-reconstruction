@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "*"
+keras-tuner = "*"
+easydict = "*"
+matplotlib = "*"
+
+[dev-packages]
+pandas = "*"
+notebook = "==6.5.5"
+traitlets = "==5.9.0"
+jupyter-contrib-nbextensions = "*"
+
+[requires]
+python_version = "3.11"
